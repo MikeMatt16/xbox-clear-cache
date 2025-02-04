@@ -1,7 +1,12 @@
 # Xbox Clear Cache
-This tool is a simple utility that clears the Xbox cache partitions.
+This tool is a simple utility that clears the Xbox cache partitions, built using [nxdk](https://github.com/XboxDev/nxdk).
+
+## Download
+To download the built executable, check out [Releases](https://github.com/MikeMatt16/xbox-clear-cache/releases) page.
 
 ## Build Instructions
+If you'd rather build it from source yourself, follow these steps. Keep in mind that in order to build, you must have all of the [prerequisites](https://github.com/XboxDev/nxdk?tab=readme-ov-file#prerequisites) of nxdk installed, and have a build environment ready.
+
 1. Clone the repository along with its submodules:
 
         git clone --recurse-submodules https://github.com/MikeMatt16/xbox-clear-cache.git

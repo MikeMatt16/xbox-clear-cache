@@ -5,8 +5,8 @@ SRCS += \
 	$(SRCDIR)/main.c
 
 NXDK_DIR = $(CURDIR)/deps/nxdk
-NXDK_NET = y
-NXDK_SDL = y
+# NXDK_NET = y
+# NXDK_SDL = y
 # NXDK_CXX = y
 
 ifeq ($(OUTPUT_DIR),)
